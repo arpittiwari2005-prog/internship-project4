@@ -1,0 +1,19 @@
+=== STUDENT PERFORMANCE TRAINING LOG ===
+
+=== REGRESSION (Final Grade Prediction) ===
+
+Linear Regression: MAE=4.42, R²=0.9040, Time=0.0s
+Ridge Regression: MAE=4.42, R²=0.9041, Time=0.0s
+Random Forest: MAE=6.12, R²=0.8124, Time=0.2s
+XGBoost: MAE=5.56, R²=0.8480, Time=0.2s
+Gradient Boosting: MAE=5.23, R²=0.8654, Time=0.5s
+
+Best Regressor: Linear Regression
+
+=== CLASSIFICATION (Grade Category Prediction) ===
+
+Random Forest: Accuracy=61.51%, F1=0.5824, Time=0.2s
+XGBoost: Accuracy=63.92%, F1=0.6278, Time=0.4s
+Gradient Boosting: Accuracy=64.60%, F1=0.6273, Time=2.8s
+
+Best Classifier: Gradient Boosting
